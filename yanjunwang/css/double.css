@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style: none;
+}
+span{
+	font-size: 11px;
+}
+.all{
+	position: relative;
+	width: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header{
+	position: relative;
+	margin: 0 auto;
+	width: 768px;
+	overflow: hidden;
+}
+.header ul{
+	float: left;
+}
+.header ul li{
+	float: left;
+	height: 29px;
+	width: 107px;
+	line-height: 29px;
+	text-align: center;
+	background-color: #666;
+}
+.header ul li:hover{
+	background: linear-gradient(#bbb, #666);
+}
+.header a{
+	color: #fff;
+}
+.logo{
+	float: left;
+}
+.content{
+	position: relative;
+	width: 768px;
+	height: 332px;
+	margin:5px auto 0px auto;
+}
+.content>a,.content>h3{
+	float: left;
+	margin-left: 10px;
+}
+.content hr{
+	clear: both;
+}
+.content>ul>li{
+	float: left;
+	width: 175px;
+	height: 135px;
+	margin:5px;
+	border:1px solid #000;
+}
+.content>ul{
+	margin-left: 10px;
+	overflow: hidden;
+}
+.content>ul>li>a{
+	overflow: hidden;
+}
+.content>ul>li>a:hover{
+	text-decoration: underline;
+}
+.content>ul>li>a>img{
+	width: 175px;
+	height: 90px;
+}
+.content>ul>li>a>p{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.footer{
+	position: relative;
+	width: 768px;
+	height: 88px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #666;
+}
+.footer p{
+	text-align: center;
+	line-height: 88px;
+}

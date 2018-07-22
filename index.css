@@ -1,0 +1,46 @@
+/*
+* @Author: ASUS
+* @Date:   2018-07-21 18:31:28
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-07-21 18:43:28
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+a{
+	color: #000;
+}
+li{
+	list-style: none;
+}
+header{
+	position: relative;
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+header>h2>strong{
+	color: #f00;
+}
+nav{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+
+}
+nav>ul>li{
+	width: 960px;
+	height: 30px;
+}
+nav>ul>li>a{
+	line-height: 30px;
+	overflow: hidden;
+}
+nav>ul>li>a span{
+	float: right;
+	line-height: 30px;
+
+
+}

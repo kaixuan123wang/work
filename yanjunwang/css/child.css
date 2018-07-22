@@ -1,0 +1,84 @@
+/*
+* @Author: ASUS
+* @Date:   2018-06-26 09:13:18
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-06-27 10:27:05
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style: none;
+}
+.all{
+	position: relative;
+	width: 768px;
+	margin: 0 auto;
+	background: #ccc;
+}
+.header{
+	position: relative;
+	margin: 0 auto;
+	width: 768px;
+	overflow: hidden;
+}
+.header ul{
+	float: left;
+}
+.header ul li{
+	float: left;
+	height: 29px;
+	width: 107px;
+	line-height: 29px;
+	text-align: center;
+	background-color: #666;
+}
+.header ul li:hover{
+	background: linear-gradient(#bbb, #666);
+}
+.header a{
+	color: #fff;
+}
+.logo{
+	float: left;
+}
+.content{
+	position: relative;
+	margin: 5px auto;
+}
+.content>h2{
+	text-align: center;
+	line-height: 50px;
+}
+.content>p{
+	text-indent: 2em;
+	margin: 4px;
+}
+.content>h3{
+	line-height: 40px;
+}
+.img{
+	text-align: center;
+	margin: 8px;
+}
+.img_test{
+	text-align: center;
+	font-size: 10px;
+}
+.footer{
+	position: relative;
+	width: 768px;
+	height: 88px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #666;
+}
+.footer p{
+	text-align: center;
+	line-height: 88px;
+}
